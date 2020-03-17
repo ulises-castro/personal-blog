@@ -1,5 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
+import { FaHeart } from 'react-icons/fa'
 
 import { rhythm, scale } from "../utils/typography"
 
@@ -62,7 +63,7 @@ const Layout = ({ location, title, children }) => {
       <main>{children}</main>
       <footer>
         <p>
-          Made with &#10084;
+          Made with <FaHeart color="red"></FaHeart>
         </p>
         © {new Date().getFullYear()}
       </footer>
