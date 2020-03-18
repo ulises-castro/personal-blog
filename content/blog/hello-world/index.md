@@ -1,22 +1,13 @@
 ---
 title: Hello World
-date: "2015-05-01T22:12:03.284Z"
-description: "Hello World"
+date: "2020-03-17T17:12:03.284Z"
+description: "Introduction to The Warrior Code Blog"
 ---
 
-This is my first post on my new fake blog! How exciting!
+This is my first post on my blog.
 
-I'm sure I'll write a lot more interesting things in the future.
+I will keep creating new entries and tutorials about development using technologies/tools such as NodeJS, Expressjs, Fastify, React, React Native, Vue, Quoasar, Electron, GraphQL, Python, Typescript and Cypress.
 
-Oh, and here's a great quote from this Wikipedia on
-[salted duck eggs](http://en.wikipedia.org/wiki/Salted_duck_egg).
+> We are already for the code battle.
 
-> A salted duck egg is a Chinese preserved food product made by soaking duck
-> eggs in brine, or packing each egg in damp, salted charcoal. In Asian
-> supermarkets, these eggs are sometimes sold covered in a thick layer of salted
-> charcoal paste. The eggs may also be sold with the salted paste removed,
-> wrapped in plastic, and vacuum packed. From the salt curing process, the
-> salted duck eggs have a briny aroma, a gelatin-like egg white and a
-> firm-textured, round yolk that is bright orange-red in color.
-
-![Chinese Salty Egg](./salty_egg.jpg)
+![Warrior](https://img.cinemablend.com/filter:scale/quill/7/c/c/c/2/3/7ccc232ba2e9ef87221bc0e14d44b859fe98aba3.jpg?mw=600)

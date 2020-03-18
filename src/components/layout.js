@@ -1,6 +1,7 @@
 import React from "react"
 import { Link } from "gatsby"
-import { FaHeart } from 'react-icons/fa'
+import { FaHeart } from "react-icons/fa"
+import { GiSpartanHelmet } from "react-icons/gi"
 
 import { rhythm, scale } from "../utils/typography"
 
@@ -25,7 +26,7 @@ const Layout = ({ location, title, children }) => {
           }}
           to={`/`}
         >
-          {title}
+          {title} <GiSpartanHelmet />
         </Link>
       </h1>
     )
@@ -45,7 +46,7 @@ const Layout = ({ location, title, children }) => {
           }}
           to={`/`}
         >
-          {title}
+          {title} <GiSpartanHelmet />
         </Link>
       </h3>
     )
@@ -55,17 +56,18 @@ const Layout = ({ location, title, children }) => {
       style={{
         marginLeft: `auto`,
         marginRight: `auto`,
-        maxWidth: rhythm(24),
+        maxWidth: rhythm(26),
         padding: `${rhythm(1.5)} ${rhythm(3 / 4)}`,
       }}
     >
-      <header>{header}</header>
+      <header>{header}
+      </header>
       <main>{children}</main>
       <footer>
-        <p>
-          Made with <FaHeart color="red"></FaHeart>
-        </p>
-        © {new Date().getFullYear()}
+        <div>
+        Made with <FaHeart color="red"></FaHeart>
+        <p>© {new Date().getFullYear()}</p>
+        </div>
       </footer>
     </div>
   )

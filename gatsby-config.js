@@ -1,9 +1,9 @@
 module.exports = {
   siteMetadata: {
-    title: `The Warrior Code Blog`,
+    title: `The Warrior Code`,
     author: {
       name: `Ulises Castro`,
-      summary: `.`,
+      summary: `who is a  Software Engineer focuses itself on creating amazing web and mobile applications.`,
     },
     description: `Easy way to solving complex problems.`,
     siteUrl: `https://warriorcode.net`,
