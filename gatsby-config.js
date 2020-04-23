@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `The Warrior Code`,
+    title: `Warrior Code`,
     author: {
       name: `Ulises Castro`,
       summary: `who is a Software Engineer focuses itself on creating amazing web and mobile applications.`,
@@ -10,10 +10,41 @@ module.exports = {
     social: {
       twitter: `ulises-castro`,
     },
+    menuLinks: [
+      {
+        name: `Blog`,
+        url: `/`,
+      },
+      {
+        name: `Tutorials`,
+        url: `/tutorials`,
+      },
+      {
+        name: `Notes`,
+        url: `/notes`,
+      },
+      {
+        name: `Contact`,
+        url: `/contact`,
+      },
+      {
+        name: `About me`,
+        url: `https://ulises-castro.github.io/`,
+      },
+    ],
   },
   plugins: [
-    `gatsby-plugin-sass`,
+    `gatsby-plugin-postcss`,
     `gatsby-plugin-styled-components`,
+    {
+      resolve: `gatsby-plugin-sass`,
+      options: {
+        postCssPlugins: [
+          require("tailwindcss"),
+          require("./tailwind.config.js"), // Optional: Load custom Tailwind CSS configuration
+        ],
+      },
+    },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
