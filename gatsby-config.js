@@ -11,7 +11,10 @@ module.exports = {
       twitter: `ulises-castro`,
     },
   },
-  plugins: [{
+  plugins: [
+    `gatsby-plugin-sass`,
+    `gatsby-plugin-styled-components`,
+    {
       resolve: `gatsby-source-filesystem`,
       options: {
         path: `${__dirname}/content/blog`,
