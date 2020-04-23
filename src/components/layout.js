@@ -47,7 +47,18 @@ const Layout = ({ location, title, children }) => {
         }}
         to={`/`}
       >
-        {title} <GiSpartanHelmet />
+        {title}
+      </Link>
+
+      <Link
+        style={{
+          boxShadow: `none`,
+          textDecoration: `none`,
+          color: `inherit`,
+        }}
+        to={`/`}
+      >
+        {title}
       </Link>
     </h3>
   )
