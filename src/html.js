@@ -23,6 +23,21 @@ export default function HTML(props) {
         />
         {props.postBodyComponents}
       </body>
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-2GWH01W3L6"></script>
+      <script
+        dangerouslySetInnerHTML={{
+          __html: `
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'G-2GWH01W3L6');
+          `
+        }}
+      />
+      <script>
+
+      </script>
     </html>
   )
 }
