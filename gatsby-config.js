@@ -17,27 +17,27 @@ module.exports = {
         name: `github`,
         url: `https://github.com/ulises-castro`,
       },
-      {
-        name: `instagram`,
-        url: `https://instagram.com/narative.co`,
-      },
-      {
-        name: `linkedin`,
-        url: `https://www.linkedin.com/company/narative/`,
-      },
     ],
   },
   plugins: [
+    {
+      resolve: "gatsby-source-contentful",
+      options: {
+        spaceId: process.env.CONTENTFUL_SPACE_ID,
+        accessToken: process.env.CONTENTFUL_ACCESS_TOKEN,
+      },
+    },
     {
       resolve: "@narative/gatsby-theme-novela",
       options: {
         contentPosts: "content/posts",
         contentAuthors: "content/authors",
         basePath: "/",
+        mailchimp: true,
         authorsPage: true,
         sources: {
           local: true,
-          // contentful: true,
+          contentful: true,
         },
       },
     },
@@ -56,6 +56,12 @@ module.exports = {
     {
       resolve: `gatsby-plugin-netlify-cms`,
       options: {},
+    },
+    {
+      resolve: "gatsby-plugin-mailchimp",
+      options: {
+        endpoint: "", // add your MC list endpoint here; see plugin repo for instructions
+      },
     },
   ],
 };
