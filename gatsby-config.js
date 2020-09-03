@@ -25,13 +25,6 @@ module.exports = {
   },
   plugins: [
     {
-      resolve: "gatsby-source-contentful",
-      options: {
-        spaceId: process.env.CONTENTFUL_SPACE_ID,
-        accessToken: process.env.CONTENTFUL_ACCESS_TOKEN,
-      },
-    },
-    {
       resolve: "@narative/gatsby-theme-novela",
       options: {
         contentPosts: "content/posts",
@@ -64,7 +57,7 @@ module.exports = {
     {
       resolve: "gatsby-plugin-mailchimp",
       options: {
-        endpoint: "", // add your MC list endpoint here; see plugin repo for instructions
+        endpoint: process.env.MAILCHIMP_ENDPOINT, // add your MC list endpoint here; see plugin repo for instructions
       },
     },
   ],
