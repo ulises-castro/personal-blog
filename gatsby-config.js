@@ -33,8 +33,8 @@ module.exports = {
         mailchimp: true,
         authorsPage: true,
         sources: {
-          local: true,
-          contentful: true,
+          // local: true,
+          // contentful: true,
         },
       },
     },
