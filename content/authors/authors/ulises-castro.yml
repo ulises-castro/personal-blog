@@ -1,8 +1,0 @@
-- name: Ulises Castro
-  bio: |
-    Written by Ulises Castro who is a Software Engineer focuses itself on creating amazing web and mobile applications. 
-  avatar: ./avatars/ulises-castro.png
-  featured: true
-  social:
-    - url: https://github.com/ulises-castro
-    - url: https://twitter.com/ulisescastro_ 
