@@ -1,11 +1,15 @@
+require("dotenv").config({
+  path: `.env.${process.env.NODE_ENV}`,
+});
+
 module.exports = {
   siteMetadata: {
-    title: `Novela by Narative`,
-    name: `Narative`,
-    siteUrl: `https://novela.narative.co`,
+    title: `Warrior Code`,
+    name: `WarriorCode`,
+    siteUrl: `https://warriorcode.net`,
     description: `This is my description that will be used in the meta tags and important for search results`,
     hero: {
-      heading: `Welcome to Novela, the simplest way to start publishing with Gatsby.`,
+      heading: `Welcome to Warrior Code, the simplest way to start learn how to code.`,
       maxWidth: 652,
     },
     social: [
@@ -15,19 +19,7 @@ module.exports = {
       },
       {
         name: `github`,
-        url: `https://github.com/narative`,
-      },
-      {
-        name: `instagram`,
-        url: `https://instagram.com/narative.co`,
-      },
-      {
-        name: `linkedin`,
-        url: `https://www.linkedin.com/company/narative/`,
-      },
-      {
-        name: `dribbble`,
-        url: `https://dribbble.com/narativestudio`,
+        url: `https://github.com/ulises-castro`,
       },
     ],
   },
@@ -38,6 +30,7 @@ module.exports = {
         contentPosts: "content/posts",
         contentAuthors: "content/authors",
         basePath: "/",
+        mailchimp: true,
         authorsPage: true,
         sources: {
           local: true,
@@ -59,7 +52,12 @@ module.exports = {
     },
     {
       resolve: `gatsby-plugin-netlify-cms`,
+      options: {},
+    },
+    {
+      resolve: "gatsby-plugin-mailchimp",
       options: {
+        endpoint: process.env.MAILCHIMP_ENDPOINT, // add your MC list endpoint here; see plugin repo for instructions
       },
     },
   ],
