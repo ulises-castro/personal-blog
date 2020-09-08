@@ -2,4 +2,5 @@ name: Ulises Castro
 bio: Who loves crasftcode, and enjoy to made amazing web/apps.
 featured: true
 avatar: avatars/ulises-castro.png
-social: []
+social:
+  - https://github.com/ulises-castro
