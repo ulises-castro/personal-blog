@@ -2,10 +2,10 @@
 
 # The Warrior Code Blog - My Personal Blog
 
-### It currently using the next tech
+### I am currently using the next tech
 
 -   Gatsby
 -   Netlify CMS - Easy way to publish posts, create new authors and so on.
 -   Novela Gatsby Theme [Theme repository](https://github.com/narative/gatsby-theme-novela)
 
-### Deployed with [Netlify](https://netlify.com)
+Deployed with [Netlify](https://netlify.com)
