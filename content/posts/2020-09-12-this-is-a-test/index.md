@@ -1,6 +1,6 @@
 ---
 title: this is a test
-author: Thiago Costa
+author: Ulises Castro
 date: '2020-09-11'
 hero: images/yo.jpg
 ---
