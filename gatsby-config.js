@@ -9,7 +9,7 @@ module.exports = {
     siteUrl: `https://warriorcode.net`,
     description: `The simplest way to learn how to code and build amazin things`,
     hero: {
-      heading: `The Warrior Code`,
+      heading: `Thoughts, tech, programming and more... `,
       maxWidth: 652,
     },
     social: [
@@ -37,7 +37,7 @@ module.exports = {
   },
   plugins: [
     {
-      resolve: "@ulises.castro/gatsby-theme-novela",
+      resolve: "@narative/gatsby-theme-novela",
       options: {
         contentPosts: "content/posts",
         contentAuthors: "content/authors",
