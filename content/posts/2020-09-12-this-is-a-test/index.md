@@ -31,11 +31,11 @@ or using Yay
 
 **Ubuntu**
 
-**`sudo apt install git wget`**
+`sudo apt install git wget`
 
 **Note: If you using Linux, you have to refresh your Bash profile, to do that, just type on a terminal:**
 
-**`source ~/bashrc`**
+`source ~/bashrc`
 
 ***If you are using Oh my Zsh***
 
@@ -64,8 +64,6 @@ If you want use it
 What If want to use it as my default node version?
 
 `nvm default 12.18.3`
-
-``
 
 ## Conclusion
 
