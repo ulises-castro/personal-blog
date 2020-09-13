@@ -10,5 +10,5 @@ import svgLogo from "./wc-logo.png";
  */
 
 export default function Logo() {
-  return <img height="110" src={svgLogo} />;
+  return <img alt="Become into a warrior of code" height="110" src={svgLogo} />;
 }
