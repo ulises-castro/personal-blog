@@ -3,8 +3,6 @@ bio: Who is an code crasftman building amazing things and a better world.
 featured: true
 avatar: ./avatars/ulises-castro.jpg
 social:
-  - url: 'https://unsplash.com'
-  - url: 'https://stackoverflow.com'
-  - url: 'https://github.com'
-  - url: 'https://github.com'
-  - url: 'https://github.com'
+  - url: 'https://github.com/ulises-castro'
+  - url: 'https://stackoverflow.com/users/8616125/ulises-castro'
+  - url: 'https://twitter.com/ulisescastro_'

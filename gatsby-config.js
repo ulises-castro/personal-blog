@@ -4,7 +4,7 @@ require("dotenv").config({
 
 module.exports = {
   siteMetadata: {
-    title: `The Warrior Code | The simplest way to learn how to code.`,
+    title: `Warrior Code | The simplest way to learn how to code.`,
     name: `WarriorCode`,
     siteUrl: `https://warriorcode.net`,
     description: `The simplest way to learn how to code and build amazin things`,
@@ -21,18 +21,10 @@ module.exports = {
         name: `github`,
         url: `https://github.com/ulises-castro`,
       },
-      //   {
-      //     name: `instagram`,
-      //     url: `https://instagram.com/narative.co`,
-      //   },
-      //   {
-      //     name: `linkedin`,
-      //     url: `https://www.linkedin.com/company/narative/`,
-      //   },
-      //   {
-      //     name: `dribbble`,
-      //     url: `https://dribbble.com/narativestudio`,
-      //   },
+      {
+        name: `facebook`,
+        url: `https://facebook.com/warriorcode.net`,
+      },
     ],
   },
   plugins: [
