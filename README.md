@@ -2,10 +2,10 @@
 
 # The Warrior Code Blog - My Personal Blog
 
-### I am currently using the next tech
+### I am currently using the next techs
 
--   Gatsby
--   Netlify CMS - Easy way to publish posts, create new authors and so on.
+-   Gatsby - Powerful generator of static-sites powered by React.
+-   Netlify CMS - A Easy way to publish posts, create new authors and so on.
 -   Novela Gatsby Theme [Theme repository](https://github.com/narative/gatsby-theme-novela)
 
 Deployed with [Netlify](https://netlify.com)
