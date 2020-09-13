@@ -63,5 +63,11 @@ module.exports = {
         endpoint: process.env.MAILCHIMP_ENDPOINT, // add your MC list endpoint here; see plugin repo for instructions
       },
     },
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: process.env.GOOGLE_ANALYTICS,
+      },
+    },
   ],
 };
