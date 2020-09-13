@@ -4,7 +4,7 @@ require("dotenv").config({
 
 module.exports = {
   siteMetadata: {
-    title: `The Warrior Code Blog | The simplest way to learn how to code and build amazing things.`,
+    title: `The Warrior Code | The simplest way to learn how to code.`,
     name: `WarriorCode`,
     siteUrl: `https://warriorcode.net`,
     description: `The simplest way to learn how to code and build amazin things`,
@@ -37,7 +37,7 @@ module.exports = {
   },
   plugins: [
     {
-      resolve: "@narative/gatsby-theme-novela",
+      resolve: "@ulises.castro/gatsby-theme-novela",
       options: {
         contentPosts: "content/posts",
         contentAuthors: "content/authors",
